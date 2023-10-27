@@ -8,6 +8,8 @@ import audio from "../src/audio.mp3";
 import subtitles from "../src/subtitles.json";
 import satsang from "../src/satsang.mp4";
 import ReactPlayer from "react-player";
+import { Box } from "@mui/material";
+// import { styled } from "@mui/material/styles";
 
 function SubtitleCreator() {
   const data = subtitles;
@@ -35,7 +37,307 @@ function SubtitleCreator() {
           margin: "1%",
         }}
       >
-        <div>hi</div>
+        <div style={{ width: "100%", overflow: "scroll" }}>
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              marginBottom: "1%",
+              width: "90%",
+              // display: "grid",
+              bgcolor: (theme) =>
+                theme.palette.mode === "dark" ? "#101010" : "grey.100",
+              color: (theme) =>
+                theme.palette.mode === "dark" ? "grey.300" : "grey.800",
+              border: "1px solid",
+              borderColor: (theme) =>
+                theme.palette.mode === "dark" ? "grey.800" : "grey.300",
+              p: 1,
+              borderRadius: 2,
+              fontSize: "0.875rem",
+              fontWeight: "700",
+            }}
+          >
+            <div>
+              0:00:04.880
+              <br></br>
+              0:00:08.240
+            </div>
+            <textarea
+              style={{
+                marginLeft: "auto",
+                width: "80%",
+                resize: "none",
+                borderRadius: "5px",
+                paddingLeft: "2%",
+              }}
+            >
+              Subtitle 1
+            </textarea>
+          </Box>
+
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              marginBottom: "1%",
+              width: "90%",
+              // display: "grid",
+              bgcolor: (theme) =>
+                theme.palette.mode === "dark" ? "#101010" : "grey.100",
+              color: (theme) =>
+                theme.palette.mode === "dark" ? "grey.300" : "grey.800",
+              border: "1px solid",
+              borderColor: (theme) =>
+                theme.palette.mode === "dark" ? "grey.800" : "grey.300",
+              p: 1,
+              borderRadius: 2,
+              fontSize: "0.875rem",
+              fontWeight: "700",
+            }}
+          >
+            <div>
+              0:00:11.230
+              <br></br>
+              0:00:13.720
+            </div>
+            <textarea
+              style={{
+                marginLeft: "auto",
+                width: "80%",
+                resize: "none",
+                borderRadius: "5px",
+                paddingLeft: "2%",
+              }}
+            >
+              Subtitle 2
+            </textarea>
+          </Box>
+
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              marginBottom: "1%",
+              width: "90%",
+              // display: "grid",
+              bgcolor: (theme) =>
+                theme.palette.mode === "dark" ? "#101010" : "grey.100",
+              color: (theme) =>
+                theme.palette.mode === "dark" ? "grey.300" : "grey.800",
+              border: "1px solid",
+              borderColor: (theme) =>
+                theme.palette.mode === "dark" ? "grey.800" : "grey.300",
+              p: 1,
+              borderRadius: 2,
+              fontSize: "0.875rem",
+              fontWeight: "700",
+            }}
+          >
+            <div>
+              0:00:14.330
+              <br></br>
+              0:00:16.230
+            </div>
+            <textarea
+              style={{
+                marginLeft: "auto",
+                width: "80%",
+                resize: "none",
+                borderRadius: "5px",
+                paddingLeft: "2%",
+              }}
+            >
+              Subtitle 3
+            </textarea>
+          </Box>
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              marginBottom: "1%",
+              width: "90%",
+              // display: "grid",
+              bgcolor: (theme) =>
+                theme.palette.mode === "dark" ? "#101010" : "grey.100",
+              color: (theme) =>
+                theme.palette.mode === "dark" ? "grey.300" : "grey.800",
+              border: "1px solid",
+              borderColor: (theme) =>
+                theme.palette.mode === "dark" ? "grey.800" : "grey.300",
+              p: 1,
+              borderRadius: 2,
+              fontSize: "0.875rem",
+              fontWeight: "700",
+            }}
+          >
+            <div>
+              0:00:16.870
+              <br></br>
+              0:00:20.810
+            </div>
+            <textarea
+              style={{
+                marginLeft: "auto",
+                width: "80%",
+                resize: "none",
+                borderRadius: "5px",
+                paddingLeft: "2%",
+              }}
+            >
+              Subtitle 4
+            </textarea>
+          </Box>
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              marginBottom: "1%",
+              width: "90%",
+              // display: "grid",
+              bgcolor: (theme) =>
+                theme.palette.mode === "dark" ? "#101010" : "grey.100",
+              color: (theme) =>
+                theme.palette.mode === "dark" ? "grey.300" : "grey.800",
+              border: "1px solid",
+              borderColor: (theme) =>
+                theme.palette.mode === "dark" ? "grey.800" : "grey.300",
+              p: 1,
+              borderRadius: 2,
+              fontSize: "0.875rem",
+              fontWeight: "700",
+            }}
+          >
+            <div>
+              0:00:21.350
+              <br></br>
+              0:00:24.130
+            </div>
+            <textarea
+              style={{
+                marginLeft: "auto",
+                width: "80%",
+                resize: "none",
+                borderRadius: "5px",
+                paddingLeft: "2%",
+              }}
+            >
+              Subtitle 5
+            </textarea>
+          </Box>
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              marginBottom: "1%",
+              width: "90%",
+              // display: "grid",
+              bgcolor: (theme) =>
+                theme.palette.mode === "dark" ? "#101010" : "grey.100",
+              color: (theme) =>
+                theme.palette.mode === "dark" ? "grey.300" : "grey.800",
+              border: "1px solid",
+              borderColor: (theme) =>
+                theme.palette.mode === "dark" ? "grey.800" : "grey.300",
+              p: 1,
+              borderRadius: 2,
+              fontSize: "0.875rem",
+              fontWeight: "700",
+            }}
+          >
+            <div>
+              0:00:24.670
+              <br></br>
+              0:00:25.970
+            </div>
+            <textarea
+              style={{
+                marginLeft: "auto",
+                width: "80%",
+                resize: "none",
+                borderRadius: "5px",
+                paddingLeft: "2%",
+              }}
+            >
+              Subtitle 6
+            </textarea>
+          </Box>
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              marginBottom: "1%",
+              width: "90%",
+              // display: "grid",
+              bgcolor: (theme) =>
+                theme.palette.mode === "dark" ? "#101010" : "grey.100",
+              color: (theme) =>
+                theme.palette.mode === "dark" ? "grey.300" : "grey.800",
+              border: "1px solid",
+              borderColor: (theme) =>
+                theme.palette.mode === "dark" ? "grey.800" : "grey.300",
+              p: 1,
+              borderRadius: 2,
+              fontSize: "0.875rem",
+              fontWeight: "700",
+            }}
+          >
+            <div>
+              0:00:25.970
+              <br></br>
+              0:00:32.930
+            </div>
+            <textarea
+              style={{
+                marginLeft: "auto",
+                width: "80%",
+                resize: "none",
+                borderRadius: "5px",
+                paddingLeft: "2%",
+              }}
+            >
+              Subtitle 7
+            </textarea>
+          </Box>
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              marginBottom: "1%",
+              width: "90%",
+              // display: "grid",
+              bgcolor: (theme) =>
+                theme.palette.mode === "dark" ? "#101010" : "grey.100",
+              color: (theme) =>
+                theme.palette.mode === "dark" ? "grey.300" : "grey.800",
+              border: "1px solid",
+              borderColor: (theme) =>
+                theme.palette.mode === "dark" ? "grey.800" : "grey.300",
+              p: 1,
+              borderRadius: 2,
+              fontSize: "0.875rem",
+              fontWeight: "700",
+            }}
+          >
+            <div>
+              0:00:34.830
+              <br></br>
+              0:00:35.510
+            </div>
+            <textarea
+              style={{
+                marginLeft: "auto",
+                width: "80%",
+                resize: "none",
+                borderRadius: "5px",
+                paddingLeft: "2%",
+              }}
+            >
+              Subtitle 8
+            </textarea>
+          </Box>
+        </div>
+
         <video ref={vidRef} controls style={{ width: "50%", height: "360px" }}>
           <source src={satsang} type='video/webm;codecs="vp8, vorbis"' />
         </video>
